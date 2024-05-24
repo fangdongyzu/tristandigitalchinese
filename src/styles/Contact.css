@@ -1,0 +1,18 @@
+.contact-links a {
+    color: inherit; /* or specify the color you want */
+    text-decoration: none; /* optional: remove underline */
+    font-size: 2rem;
+  }
+i{
+    font-size: 2rem;
+}
+h4{
+  justify-content: center;
+  display: flex;
+  margin-bottom: 64px;
+  font-weight: 240;
+  font-size: larger;
+  margin-top: 38px;
+  margin-bottom: 72px;
+ 
+}

@@ -1,0 +1,50 @@
+.more-about-wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+.back-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: transparent;
+    font-size: 1.35rem;
+    text-align: center;
+    background-color: azure;
+
+}
+
+.body {
+    margin-left: 70px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.link:visited {
+    color: inherit;
+
+}
+
+button:hover {
+    cursor: pointer;
+}
