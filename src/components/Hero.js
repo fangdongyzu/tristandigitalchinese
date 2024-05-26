@@ -18,7 +18,7 @@ export default function Hero() {
             </p>
             <a href="/more-about">
                 <button className='more-about'>
-                    關於我的更多
+                    關於我的更多多
                 </button>
             </a>
 
