@@ -16,3 +16,17 @@ h4{
   margin-bottom: 72px;
  
 }
+
+.contact-message{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+
+.contact-links{
+  margin-top: 64px;
+}
+.links-container{
+margin-bottom: 32px;
+}

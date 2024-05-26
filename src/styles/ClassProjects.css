@@ -1,58 +1,40 @@
-.class-project-container {
-    display: grid;
-    grid-row-gap: 10px;
-    width: 100%;
-    justify-content: center;
-    padding-bottom: 20px;
-  }
-  
-  @media screen and (min-width: 768px) {
-    .class-project-container {
-      grid-template-columns: 1fr 1fr; /* Two columns on screens wider than 768px */
-      grid-column-gap: 15px;
+.class-projects-container {
 
-    }
-  }
-  
-  @media screen and (min-width: 1200px) {
-    .class-project-container {
-      grid-template-columns: repeat(3, 1fr); /* Three columns on screens wider than 1200px */
-      grid-column-gap: 15px; 
-    
-    }
-  
-  }
-  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 20px;
+
+}
 
 .project {
-    background-color: #e1dede;
-    align-items: center;
-    border: 1px solid #333;  
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 20px;
+  background-color: #e1dede;
+  align-items: center;
+  border: 1px solid #333;  
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
 
 }
 
 .tool-screenshot {
-    flex: 1; /* Take up half of the .project container's height */
-    width: 100%; /* Ensure the image fills the entire width */
-    object-fit: cover; /* Maintain aspect ratio while covering the container */
-    max-height: 50%; /* Maximum height of 50% of the .project container's height */
-    background-position: center; /* Center the background image within the container */
-    background-size: contain; /* Resize the background image to fit within the container */
+  width: 90%;
+  object-fit: cover;
+  max-height: 50%; 
+  background-position: center; 
+  background-size: contain; 
+}
 
-
-  }
-  
 .tool-name{
-    text-align: center;
+  text-align: center;
 }
 .tool-info {
-    flex: 1; /* Take up the remaining space in the .project container */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 10px;
-  }
+  flex: 1; /* Take up the remaining space in the .project container */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}

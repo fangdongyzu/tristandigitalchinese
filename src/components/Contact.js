@@ -3,8 +3,8 @@ import '../styles/Contact.css'
 const Contact = () => {
   return (
     <div className="contact-links">
-      <h4>若您對我感興趣，歡迎與我聯繫，謝謝！</h4>
-      <ul>
+      <h4 className='contact-message'>若您對我感興趣，歡迎與我聯繫，謝謝！</h4>
+      <ul className='links-container'>
         <li>
          <a href="mailto:fangdongyzu@gmail.com"><i className="fas fa-envelope"></i> Email</a> 
         </li>

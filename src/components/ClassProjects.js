@@ -15,7 +15,8 @@ export default function ClassProjects() {
   ));
   
   return (
-    <div className='class-project-container'>
+
+    <div className='class-projects-container'>
       {projectsElements}
     </div>
   

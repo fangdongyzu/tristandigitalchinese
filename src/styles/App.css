@@ -1,45 +1,35 @@
-.class-project-container{
-    display: flex;
-    justify-content: space-around
-    ;
-}
-.section-title {
-    text-align: center; /* Center the text horizontally */
-    display: flex; /* Use flexbox */
-    justify-content: center; /* Center the flex item (h3) horizontally */
-    align-items: center; /* Center the flex item (h3) vertically */
-    height: 100px; /* Set a height for the container if needed */
-    margin-bottom: 30px;
-  }
-  section {
-    background-color: #f0f0f0; /* Just for visualization */
-    margin-left: 20px;
-    margin-right: 20px;
-    box-sizing: border-box; /* Include padding and border in the width */
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-.body-area{
-    background-color: #f0f0f0; 
+/* Remove margin and padding from section to avoid extra spacing */
+section {
+  background-color: #f0f0f0;
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
 }
 
-#backToTopBtn {
-    display: none; /* Hide by default */
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    font-size: 1.75rem;
-    border: none;
-    outline: none;
-    background-color: #333;
-    color: white;
-    cursor: pointer;
-    padding: 25px;
-    border-radius: 50%;
-  }
-  
-  #backToTopBtn:hover {
-    background-color: #555;
-  }
-  
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #ccc; /* Replace with your desired background */
+  flex-direction: column;
+  height: 100vh;
+}
+
+#project-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.section-title {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-bottom: 30px;
+  padding-top: 24px;
+}
+
+.body-area {
+  background-color: #f0f0f0;
+}

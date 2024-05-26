@@ -8,28 +8,31 @@ import Contact from './components/Contact';
 import OnTop from './components/OnTop';
 
 export default function App() {
-  
-
   return (
     <div className='body-area'>
       <NavBar />
+
       <section id='hero'>
         <Hero />
       </section>
 
-      <section id="project">
-        <h3 className='section-title' >課堂Project</h3>
-        <ClassProjects />
+      <section id="project-section">
+        <h3 className='section-title'>課堂Project</h3>
+        <div className="class-project-container">
+          <ClassProjects />
+        </div>
       </section>
 
       <section id="contact">
         <h3 className="section-title">聯繫我</h3>
         <Contact />
       </section>
+
       <section>
         <Footer />
       </section>
-      <OnTop/>
+
+      <OnTop />
     </div>
   );
 }
