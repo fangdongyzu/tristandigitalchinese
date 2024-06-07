@@ -49,12 +49,13 @@ const MoreAbout = () => {
                     </div>
                     <div className='work-item'>
                         <div className='job-header'>
-                            <h3>臺灣優華語計畫 哈佛&臺大2022秋季學期1對1線上教學</h3>
+                            <h3>臺灣優華語計畫</h3>
                             <p className='work-time'>09/2022 - 12/2022</p>
                         </div>
                         <h4 className='company'>國立臺灣大學</h4>
                         <p className='location'>助教 | 台北市大安區</p>
-                        <p className='job-description'>
+                        <p className='job-description'> 哈佛&臺大2022秋季學期1對1線上教學
+                            <br></br>
                             負責協助哈佛大學的學生，進行一對一華語會話課程。透過線上平台進行視訊教學，並提供個人化教學建議和學習指導。
                         </p>
                     </div>
@@ -102,23 +103,25 @@ const MoreAbout = () => {
                         <p className='test'>母語</p>
                     </div>
                 </section>
-                
+
                 <hr />
 
                 <section className='skills'>
                     <h2>專長</h2>
                     <div className='skills-item'>
                         <h4>程式設計</h4>
-                        <p>精通Python, JavaScript, C++</p>
+                        <p>HTLML, CSS, Javascript, Python</p>
                     </div>
                     <div className='skills-item'>
-                        <h4>數據分析</h4>
-                        <p>熟悉Pandas, NumPy, SciPy</p>
+                        <h4>文書處理</h4>
+                        <p>Microsoft Office, Google Meet, MS Teams </p>
                     </div>
                 </section>
+                <div className='contact-footer'>
+                    <Contact />
+                    <Footer />
+                </div>
 
-                <Contact />
-                <Footer />
             </div>
         </div>
     );

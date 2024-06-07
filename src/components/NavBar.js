@@ -22,9 +22,9 @@ class NavBar extends React.Component {
     return (
       <div id='nav-bar'>
         <ul>
-          <li><a href="/#hero">About</a></li>
-          <li><a href="/#project-section" >Project</a></li><li><a href="/teaching-materials">Teaching Materials</a></li>
-          <li><a href="/#contact" >Contact</a></li>
+          <li><a href="/#hero">關於</a></li>
+          <li><a href="/#project-section" >數位工具</a></li><li><a href="/teaching-materials">教材</a></li>
+          <li><a href="/#contact" >聯絡</a></li>
         </ul>
       </div>
     );

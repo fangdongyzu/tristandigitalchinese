@@ -2,7 +2,14 @@
     color: inherit; /* or specify the color you want */
     text-decoration: none; /* optional: remove underline */
     font-size: 2rem;
+    color: #555;
+    transition: all 0.3s ease-in-out;
   }
+  .contact-links a:hover {
+    color: rgb(17, 139, 200);
+    cursor: pointer;
+  }
+
 i{
     font-size: 2rem;
 }
@@ -25,8 +32,12 @@ h4{
 }
 
 .contact-links{
-  margin-top: 64px;
+ margin-top: -8px;
 }
 .links-container{
-margin-bottom: 32px;
+  margin-bottom: 32px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+
 }

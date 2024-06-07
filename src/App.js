@@ -17,7 +17,7 @@ export default function App() {
       </section>
 
       <section id="project-section">
-        <h3 className='section-title'>課堂Project</h3>
+        <h3 className='section-title'>數位工具</h3>
         <div className="class-project-container">
           <ClassProjects />
         </div>
@@ -31,8 +31,6 @@ export default function App() {
       <section>
         <Footer />
       </section>
-
-      <OnTop />
     </div>
   );
 }

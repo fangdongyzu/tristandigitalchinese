@@ -10,15 +10,19 @@
 }
 
 .project {
-  background-color: #e1dede;
+  background-color:  rgb(255, 255, 255);
   align-items: center;
-  border: 1px solid #333;  
+  border: 1px solid #cbcbcb;  
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 20px;
-
+  transition: all 0.3s ease-in-out;
 }
+.project:hover{
+  background-color: #dfdfdf;
+}
+
 
 .tool-screenshot {
   width: 90%;
@@ -29,7 +33,12 @@
 }
 
 .tool-name{
+  margin-top: 8px;
+  margin-bottom: 16px;
   text-align: center;
+  font-size: 1.05em;
+  font-weight:600;
+  text-decoration: underline;
 }
 .tool-info {
   flex: 1; /* Take up the remaining space in the .project container */
@@ -37,4 +46,8 @@
   flex-direction: column;
   justify-content: center;
   padding: 10px;
+}
+.tool-discription{
+  font-size: 0.8em;
+  padding: 0 16px;
 }
