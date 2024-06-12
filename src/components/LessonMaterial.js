@@ -20,6 +20,7 @@ const LessonMaterial = (props) => {
                         alt="Lesson Material"
                     />
                 </div>
+                <p className='empty'> </p>
                 <h4 className="course-title">{props.courseTitle}</h4>
             </div>
             {showIframe && (

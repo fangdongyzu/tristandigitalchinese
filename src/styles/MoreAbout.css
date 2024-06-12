@@ -22,7 +22,7 @@ p {
 
 .body {
     padding: 48px;
-    margin-bottom: 32px;
+    margin-bottom: -16px;
 }
 
 h2 {
@@ -35,6 +35,16 @@ h3 {
     margin-bottom: 5px;
     font-size: 1em;
     color: #555;
+   
+   
+    
+    
+}
+
+.school{
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
 }
 
 h4 {
@@ -60,7 +70,7 @@ p {
 .school,
 .job-title,
 .language-name {
-    color: #007bff;
+    color: #686969;
 }
 
 .major,
@@ -123,6 +133,7 @@ p {
 .job-header{
     display: flex;
     justify-content: space-between;
+    margin-bottom: -24px;
 }
 /* Media Query for Responsive Design */
 @media (max-width: 600px) {
@@ -140,6 +151,7 @@ p {
 
     h3 {
         font-size: 1em;
+        text-align: left;
     }
 
     h4 {
@@ -154,4 +166,15 @@ p {
 .contact-footer{
     padding-top: 88px;
 
+}
+h2{
+   padding-bottom: 8px; 
+}
+.school{
+    margin-bottom: -24px;
+}
+.language-name{
+    display: flex;
+    justify-content: left;
+    margin-bottom: -32px;
 }

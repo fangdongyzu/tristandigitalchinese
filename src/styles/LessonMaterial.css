@@ -28,6 +28,7 @@
     max-height: 100%;
     display: block;
     margin: auto;
+
 }
 
 .iframe-container {
@@ -53,4 +54,10 @@ iframe {
     border: 1px solid #ccc;
     padding: 5px 10px;
     cursor: pointer;
+}
+.empty{
+    height: 5em;
+    border-right: 2px solid rgb(69, 67, 67);
+    justify-content: center;
+    align-items: center;
 }

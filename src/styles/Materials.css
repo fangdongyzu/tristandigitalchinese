@@ -1,6 +1,13 @@
-.teaching-materials-wrap{
+.teaching-materials-wrap {
     margin-top: 80px;
 }
-h3{
-    padding-bottom: 40px;
+
+h3 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    padding-bottom: 48px;
+
 }

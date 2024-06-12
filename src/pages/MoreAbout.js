@@ -19,12 +19,12 @@ const MoreAbout = () => {
                 <section className='education'>
                     <h2>學歷</h2>
                     <div className='education-item'>
-                        <h3>國立台灣大學</h3>
+                        <h3 className='school'>國立台灣大學</h3>
                         <p>華語教學碩士學位學程碩士日間就讀中</p>
                         <p className='study-time'>2022/9 ~ 2024/9</p>
                     </div>
                     <div className='education-item'>
-                        <h3>元智大學</h3>
+                        <h3 className='school'>元智大學</h3>
                         <p className='major'>資訊英專班大學日間就讀中</p>
                         <p className='study-time'>2018/9 ~ 2022/6</p>
                     </div>
@@ -42,9 +42,9 @@ const MoreAbout = () => {
                         <h4 className='company'>台灣大哥大</h4>
                         <p className='location'>實習生 | 台北市大安區</p>
                         <p className='job-description'>
-                            - 負責與業務聯繫、解決客戶的問題、維持公司營運流暢
+                            負責與業務聯繫、解決客戶的問題、維持公司營運流暢
                             <br />
-                            - 製作報表、翻譯簡報及相關文件
+                            製作報表、翻譯簡報及相關文件
                         </p>
                     </div>
                     <div className='work-item'>
@@ -88,17 +88,17 @@ const MoreAbout = () => {
                 <section className='language-skills'>
                     <h2>語言能力</h2>
                     <div className='language'>
-                        <h3><u>中文</u></h3>
+                        <h3 className='language-name'><u>中文</u></h3>
                         <h4 className='skills'>聽 / 精通 說 / 精通 讀 / 精通 寫 / 精通</h4>
                         <p className='test'>華語文能力測驗 - 聽讀流利精通級 C1</p>
                     </div>
                     <div className='language'>
-                        <h3><u>英文</u></h3>
+                        <h3 className='language-name'><u>英文</u></h3>
                         <h4 className='skills'>聽 / 精通 說 / 精通 讀 / 精通 寫 / 精通</h4>
                         <p className='test'>TOEIC (多益測驗) 825</p>
                     </div>
                     <div className='language'>
-                        <h3><u>越南文</u></h3>
+                        <h3 className='language-name'><u>越南文</u></h3>
                         <h4 className='skills'>聽 / 精通 說 / 精通 讀 / 精通 寫 / 精通</h4>
                         <p className='test'>母語</p>
                     </div>
